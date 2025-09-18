@@ -15,6 +15,6 @@ The goal: write code I'm proud to show, prepare for **senior developer interview
 
 ## 📂 Repository Structure
 
-katas/ # Small katas (TDD, refactoring, clean code)
-docs/ # Architecture Decision Records (ADRs), notes, weekly reviews
-projects/ # Larger sample services (hexagonal architecture, telemetry, etc.)
+katas/ # Small katas (TDD, refactoring, clean code).
+docs/ # Architecture Decision Records (ADRs), notes, weekly reviews.
+projects/ # Larger sample services (hexagonal architecture, telemetry, etc.).
