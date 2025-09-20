@@ -32,7 +32,7 @@ subprojects {
         "testImplementation"("org.assertj:assertj-core:3.26.3")
         "testImplementation"("org.mockito:mockito-core:5.13.0")
         "testImplementation"("net.jqwik:jqwik:1.8.2")
-        "implementation"("com.google.guava:guava:33.4.8-jre")
+
 
         // ✅ this resolves "Unresolved reference: errorprone"
         add("errorprone", "com.google.errorprone:error_prone_core:2.41.0")

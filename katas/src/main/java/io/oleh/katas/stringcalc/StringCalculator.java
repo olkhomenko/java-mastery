@@ -12,7 +12,7 @@ public class StringCalculator {
 
     List<String> numbers = Splitter.on(',').splitToList(input);
     for (String number : numbers) {
-      answer += Integer.parseInt(number);
+      answer += Integer.parseInt(number.trim());
     }
     return answer;
   }

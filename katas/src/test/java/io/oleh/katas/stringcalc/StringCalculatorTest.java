@@ -1,11 +1,14 @@
 package io.oleh.katas.stringcalc;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 class StringCalculatorTest {
+  @Test
+  void addNull() {
+    assertThat(StringCalculator.add(null)).isEqualTo(0);
+  }
 
   @Test
   void addEmptyString() {
